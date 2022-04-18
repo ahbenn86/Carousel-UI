@@ -5,6 +5,8 @@
 }
 
 body {
+  background-image: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
   font-family: "Roboto", sans-serif;
   align-items: center;
   justify-content: center;
@@ -14,10 +16,10 @@ body {
 }
 
 img {
-	width: 500px;
-	height: 500px;
-	object-fit: cover;
-  }
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
 
 .carousel {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -27,31 +29,29 @@ img {
 }
 
 .image-container {
-	display: flex;
-	transform: translateX(0);
-	transition: transform 0.5s ease-in-out;
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
 }
 
 .buttons-container {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .btn {
-	background-color: rebeccapurple;
-	color: white;
-	border: none;
-	padding: 0.5rem;
-	cursor: pointer;
-	width: 49.5%;
-
+  background-color: rgb(81, 81, 81);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 49.5%;
 }
 
 .btn:hover {
-	opacity: 0.9;
+  opacity: 0.9;
 }
 
 .btn:focus {
-	outline: none;
+  outline: none;
 }
-
